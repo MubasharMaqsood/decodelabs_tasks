@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — MA Studio</title>
+<meta name="description" content="Get in touch with MA Studio — Lahore atelier for Pakistani couture and Western ready-to-wear.">
+<link rel="icon" href="images/logo-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="announce">Complimentary shipping across Pakistan on orders over Rs 8,000 — the Eid Edit is live</div>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="images/logo-mark.svg" class="logo-mark" alt="MA Studio monogram">
+      <span class="logo-text">MA <em>Studio</em></span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="pakistani.html">Pakistani Couture</a>
+      <a href="western.html">Western Edit</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn cart-open" aria-label="Open cart" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="cart-count">0</span>
+      </button>
+    </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" type="button"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="contact-hero">
+  <div class="wrap">
+    <span class="eyebrow">We'd Love to Hear From You</span>
+    <h1>Get in Touch</h1>
+    <p>Styling questions, bridal appointments, order support — our team replies within one business day.</p>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="contact-grid">
+
+    <div class="contact-info reveal">
+      <h3>Visit the Atelier</h3>
+
+      <div class="info-row">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+        <div><h5>Address</h5><p>12-C Gulberg III, Main Boulevard, Lahore, Pakistan</p></div>
+      </div>
+      <div class="info-row">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2Z"/></svg></span>
+        <div><h5>Phone</h5><p><a href="tel:+923001115566">+92 300 111 5566</a></p></div>
+      </div>
+      <div class="info-row">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4Z"/><path d="m4 6 8 7 8-7"/></svg></span>
+        <div><h5>Email</h5><p><a href="mailto:atelier@mastudio.pk">atelier@mastudio.pk</a></p></div>
+      </div>
+      <div class="info-row">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <div><h5>Studio Hours</h5><p>Mon – Sat, 11:00 AM – 8:00 PM PKT · Closed Sundays</p></div>
+      </div>
+
+      <div class="map-art"><img src="images/map.webp" alt="Map illustration marking the MA Studio atelier location"></div>
+    </div>
+
+    <div class="reveal">
+      <h3 style="font-family:var(--display); font-size:1.6rem; margin-bottom:20px;">Send a Message</h3>
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="cf-name">Full Name</label>
+            <input id="cf-name" type="text" name="name" required>
+            <span class="err">Please enter your name.</span>
+          </div>
+          <div class="form-field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" type="email" name="email" required>
+            <span class="err">Please enter a valid email.</span>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="cf-subject">Subject</label>
+          <select id="cf-subject" name="subject" required>
+            <option value="">Choose a topic</option>
+            <option>Bridal Appointment</option>
+            <option>Order Support</option>
+            <option>Sizing Help</option>
+            <option>Wholesale Enquiry</option>
+            <option>Something Else</option>
+          </select>
+          <span class="err">Please choose a topic.</span>
+        </div>
+        <div class="form-field">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" required placeholder="Tell us what you need..."></textarea>
+          <span class="err">Please add a short message.</span>
+        </div>
+        <button type="submit" class="btn btn-wine">Send Message</button>
+        <p class="form-status" role="status"></p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div><span class="eyebrow">Before You Ask</span><h2>Frequently Asked</h2></div>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">What sizes do you carry?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Pakistani Couture runs XS–3XL with custom bridal fittings available in-studio. The Western Edit runs XS–XL. Full measurements are listed on every product page.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">How long does bridal customization take?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Hand-embellished bridal pieces typically take 2–3 weeks from confirmed order. We recommend booking at least six weeks ahead of your event.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">Do you ship internationally?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Yes — we ship across Pakistan in 2–4 business days and internationally in 7–14 business days, with tracking provided on every order.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">What is your exchange policy?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Unworn, unwashed ready-to-wear pieces can be exchanged within 7 days of delivery. Made-to-order bridal pieces are final sale.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" type="button">How should I care for embroidered pieces?<span class="plus">+</span></button>
+        <div class="faq-a"><p>Dry clean only for anything with gota, zardozi, or delicate embellishment. Lawn and cotton pieces can be hand-washed cold and line-dried in shade.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="images/logo-mark-dark.svg" class="logo-mark" alt="MA Studio"><span class="logo-text">MA <em>Studio</em></span></a>
+        <p>Pakistani heritage, cut for the modern world. Handcrafted lawn, bridal and ready-to-wear beside a considered western edit — designed in Lahore, worn everywhere.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 8h-2a2 2 0 0 0-2 2v10M9 12h6"/><path d="M13 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3v11a3 3 0 1 1-3-3"/><path d="M14 3c1 2 2.5 3 4.5 3.2"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="pakistani.html">Pakistani Couture</a></li>
+          <li><a href="western.html">Western Edit</a></li>
+          <li><a href="pakistani.html">Bridal &amp; Formals</a></li>
+          <li><a href="western.html">New Arrivals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html#faq">Size Guide</a></li>
+          <li><a href="contact.html#faq">Care Guide</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Reach Us</h4>
+        <ul>
+          <li>+92 300 111 5566</li>
+          <li>atelier@mastudio.pk</li>
+          <li>Gulberg III, Lahore, Pakistan</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="year"></span> MA Studio. All rights reserved.</span>
+      <span>Design &amp; craft, unmistakably MA.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="overlay"></div>
+<aside class="cart-drawer">
+  <div class="cart-head">
+    <h3>Your Bag</h3>
+    <button class="cart-close" aria-label="Close cart" type="button">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="cart-items"><p class="cart-empty">Your bag is empty. Time to fix that.</p></div>
+  <div class="cart-foot">
+    <div class="cart-subtotal"><span>Subtotal</span><span class="amt">Rs 0</span></div>
+    <button class="btn btn-wine">Checkout</button>
+    <p class="tiny-note">Shipping &amp; taxes calculated at checkout.</p>
+  </div>
+</aside>
+<button class="to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

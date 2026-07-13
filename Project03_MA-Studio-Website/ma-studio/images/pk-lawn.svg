@@ -1,0 +1,22 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pakistani lawn suit illustration">
+  <defs></defs>
+  <rect width="300" height="400" fill="#F2E9DA"/>
+  
+
+    <circle cx="150" cy="46" r="16" fill="none" stroke="#241C1A" stroke-width="1.6" opacity="0.85"/>
+    <path d="M150 62 L150 84" stroke="#241C1A" stroke-width="1.6" opacity="0.85"/>
+    
+<path d="M118 84 Q150 70 182 84 L196 150 Q200 250 188 340 L112 340 Q100 250 104 150 Z"
+      fill="#FAF5EC" stroke="#241C1A" stroke-width="1.6"/>
+<path d="M118 84 Q150 100 182 84" fill="none" stroke="#7A1730" stroke-width="1.4"/>
+<path d="M120 150 L180 150" stroke="#C7973F" stroke-width="1" stroke-dasharray="2 6"/>
+<path d="M116 210 L184 210" stroke="#C7973F" stroke-width="1" stroke-dasharray="2 6"/>
+<path d="M112 270 L188 270" stroke="#C7973F" stroke-width="1" stroke-dasharray="2 6"/>
+<circle cx="132" cy="130" r="2.4" fill="#7A1730"/><circle cx="168" cy="130" r="2.4" fill="#7A1730"/>
+<circle cx="150" cy="118" r="2.4" fill="#7A1730"/>
+<circle cx="122" cy="190" r="2.4" fill="#7A1730"/><circle cx="178" cy="190" r="2.4" fill="#7A1730"/>
+<circle cx="150" cy="178" r="2.4" fill="#7A1730"/>
+<path d="M104 150 Q90 200 100 260" fill="none" stroke="#241C1A" stroke-width="1.2" opacity="0.55"/>
+<path d="M196 150 Q210 200 200 260" fill="none" stroke="#241C1A" stroke-width="1.2" opacity="0.55"/>
+
+</svg>

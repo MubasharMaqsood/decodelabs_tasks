@@ -1,0 +1,18 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pakistani kurta illustration">
+  <defs></defs>
+  <rect width="300" height="400" fill="#EFD9CC"/>
+  
+
+    <circle cx="150" cy="46" r="16" fill="none" stroke="#241C1A" stroke-width="1.6" opacity="0.85"/>
+    <path d="M150 62 L150 84" stroke="#241C1A" stroke-width="1.6" opacity="0.85"/>
+    
+<path d="M124 84 Q150 74 176 84 L190 200 Q192 260 178 335 L122 335 Q108 260 110 200 Z"
+      fill="#7A1730" stroke="#241C1A" stroke-width="1.5"/>
+<path d="M124 84 Q150 96 176 84" fill="none" stroke="#C7973F" stroke-width="1.4"/>
+<path d="M150 96 L150 200" stroke="#C7973F" stroke-width="1" opacity="0.7"/>
+<path d="M132 108 L168 108 M130 130 L170 130" stroke="#E7D3A6" stroke-width="1"/>
+<path d="M110 200 Q75 240 88 300" fill="none" stroke="#241C1A" stroke-width="1.3" opacity="0.5"/>
+<path d="M190 200 Q225 240 212 300" fill="none" stroke="#241C1A" stroke-width="1.3" opacity="0.5"/>
+<path d="M122 335 L108 372 M178 335 L192 372" stroke="#241C1A" stroke-width="1.4" opacity="0.6"/>
+
+</svg>

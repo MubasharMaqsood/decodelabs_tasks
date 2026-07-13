@@ -1,0 +1,20 @@
+<svg viewBox="0 0 300 380" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="380" fill="#F2E9DA"/>
+  <g transform="translate(0,-20)">
+
+    <circle cx="150" cy="46" r="16" fill="none" stroke="#241C1A" stroke-width="1.6" opacity="0.9"/>
+    <path d="M150 62 L150 84" stroke="#241C1A" stroke-width="1.6" opacity="0.9"/>
+    
+<path d="M120 84 Q150 68 180 84 L188 150 L134 150 Z" fill="#8C2A47" stroke="#241C1A" stroke-width="1.4"/>
+<path d="M112 150 Q150 130 188 150 L228 350 Q150 380 72 350 Z" fill="#591022" stroke="#241C1A" stroke-width="1.6"/>
+<path d="M112 150 Q150 130 188 150" fill="none" stroke="#C7973F" stroke-width="1.6"/>
+<path d="M80 340 Q150 362 220 340" fill="none" stroke="#C7973F" stroke-width="2"/>
+<path d="M90 310 Q150 332 210 310" fill="none" stroke="#E7D3A6" stroke-width="1"/>
+<path d="M100 250 Q150 268 200 250" fill="none" stroke="#E7D3A6" stroke-width="1"/>
+<path d="M108 200 Q150 216 192 200" fill="none" stroke="#E7D3A6" stroke-width="1"/>
+<circle cx="150" cy="167" r="3" fill="#C7973F"/>
+<circle cx="130" cy="180" r="2" fill="#C7973F"/><circle cx="170" cy="180" r="2" fill="#C7973F"/>
+<path d="M188 150 Q225 190 220 250" fill="none" stroke="#C7973F" stroke-width="1" opacity="0.7"/>
+<path d="M112 150 Q75 190 80 250" fill="none" stroke="#C7973F" stroke-width="1" opacity="0.7"/>
+</g>
+</svg>

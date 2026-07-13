@@ -1,0 +1,11 @@
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="380" fill="#F2E9DA"/>
+  <g stroke="#7A1730" stroke-width="0.7" opacity="0.35" fill="none">
+    <path d="M0 90 H700 M0 190 H700 M0 290 H700"/>
+    <path d="M110 0 V380 M350 0 V380 M590 0 V380"/>
+  </g>
+  <circle cx="350" cy="190" r="12" fill="#7A1730"/>
+  <circle cx="350" cy="190" r="26" fill="none" stroke="#7A1730" stroke-width="1.4"/>
+  <circle cx="350" cy="190" r="44" fill="none" stroke="#C7973F" stroke-width="1" opacity="0.6"/>
+  <text x="350" y="240" font-family="Georgia, serif" font-size="16" fill="#241C1A" text-anchor="middle">Greater Lucknow, India</text>
+</svg>
