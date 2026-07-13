@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Access Control // Registration — DecodeLabs Project 4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="masthead__mark" aria-hidden="true">⌁</div>
+    <div class="masthead__text">
+      <p class="eyebrow">DecodeLabs · Industrial Training Kit · Batch 2026</p>
+      <h1>Access Control Checkpoint</h1>
+      <p class="lede">Every field is a gate. Every submission is a payload. Nothing passes the perimeter until it's inspected.</p>
+    </div>
+  </header>
+
+  <!-- Pipeline strip — mirrors the 4-phase architecture from the brief -->
+  <ol class="pipeline" aria-label="Validation pipeline stages">
+    <li class="pipeline__stage" data-stage="structure">
+      <span class="pipeline__index">01</span>
+      <span class="pipeline__label">Structure</span>
+      <span class="pipeline__sub">Semantic HTML</span>
+    </li>
+    <li class="pipeline__stage" data-stage="shield">
+      <span class="pipeline__index">02</span>
+      <span class="pipeline__label">Shield</span>
+      <span class="pipeline__sub">preventDefault()</span>
+    </li>
+    <li class="pipeline__stage" data-stage="scan">
+      <span class="pipeline__index">03</span>
+      <span class="pipeline__label">Scan</span>
+      <span class="pipeline__sub">Regex Gates</span>
+    </li>
+    <li class="pipeline__stage" data-stage="communicate">
+      <span class="pipeline__index">04</span>
+      <span class="pipeline__label">Communicate</span>
+      <span class="pipeline__sub">ARIA Feedback</span>
+    </li>
+  </ol>
+
+  <main class="console">
+
+    <!-- LEFT: the actual form -->
+    <section class="checkpoint" aria-labelledby="form-heading">
+      <h2 id="form-heading" class="checkpoint__title">Registration Payload</h2>
+
+      <form id="access-form" novalidate>
+
+        <div class="field" data-field="fullName">
+          <label for="fullName">Full name</label>
+          <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            autocomplete="name"
+            aria-describedby="fullName-error"
+            aria-invalid="false"
+            required
+          >
+          <p class="field__msg" id="fullName-error" role="alert"></p>
+        </div>
+
+        <div class="field" data-field="email">
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            aria-describedby="email-error"
+            aria-invalid="false"
+            required
+          >
+          <p class="field__msg" id="email-error" role="alert"></p>
+        </div>
+
+        <div class="field" data-field="password">
+          <label for="password">Password</label>
+          <div class="field__input-row">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              autocomplete="new-password"
+              aria-describedby="password-error password-hint"
+              aria-invalid="false"
+              required
+            >
+            <button type="button" class="reveal-btn" id="reveal-password" aria-pressed="false">
+              <span class="reveal-btn__text">show</span>
+            </button>
+          </div>
+          <p class="field__hint" id="password-hint">8+ characters, one upper, one lower, one number, one symbol.</p>
+          <p class="field__msg" id="password-error" role="alert"></p>
+        </div>
+
+        <div class="field" data-field="confirmPassword">
+          <label for="confirmPassword">Confirm password</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            autocomplete="new-password"
+            aria-describedby="confirmPassword-error"
+            aria-invalid="false"
+            required
+          >
+          <p class="field__msg" id="confirmPassword-error" role="alert"></p>
+        </div>
+
+        <button type="submit" class="submit-btn" id="submit-btn">
+          <span>Submit payload</span>
+        </button>
+
+        <!-- Polite live region: announces state changes without interrupting typing -->
+        <p class="sr-live" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <!-- RIGHT: signature element — live gate inspector -->
+    <aside class="inspector" aria-labelledby="inspector-heading">
+      <h2 id="inspector-heading" class="inspector__title">Gate Inspector</h2>
+      <p class="inspector__sub">Live status of every logic gate. Nothing here is decorative — this reflects the actual form state.</p>
+
+      <ul class="gate-list" id="gate-list">
+        <li class="gate" data-gate="fullName">
+          <span class="gate__light" aria-hidden="true"></span>
+          <span class="gate__name">Name present</span>
+          <span class="gate__state">pending</span>
+        </li>
+        <li class="gate" data-gate="email">
+          <span class="gate__light" aria-hidden="true"></span>
+          <span class="gate__name">Email syntax</span>
+          <span class="gate__state">pending</span>
+        </li>
+        <li class="gate" data-gate="passwordUpper">
+          <span class="gate__light" aria-hidden="true"></span>
+          <span class="gate__name">Uppercase</span>
+          <span class="gate__state">pending</span>
+        </li>
+        <li class="gate" data-gate="passwordLower">
+          <span class="gate__light" aria-hidden="true"></span>
+          <span class="gate__name">Lowercase</span>
+          <span class="gate__state">pending</span>
+        </li>
+        <li class="gate" data-gate="passwordDigit">
+          <span class="gate__light" aria-hidden="true"></span>
+          <span class="gate__name">Digit</span>
+          <span class="gate__state">pending</span>
+        </li>
+        <li class="gate" data-gate="passwordSymbol">
+          <span class="gate__light" aria-hidden="true"></span>
+          <span class="gate__name">Symbol</span>
+          <span class="gate__state">pending</span>
+        </li>
+        <li class="gate" data-gate="passwordLength">
+          <span class="gate__light" aria-hidden="true"></span>
+          <span class="gate__name">Length ≥ 8</span>
+          <span class="gate__state">pending</span>
+        </li>
+        <li class="gate" data-gate="confirmPassword">
+          <span class="gate__light" aria-hidden="true"></span>
+          <span class="gate__name">Passwords match</span>
+          <span class="gate__state">pending</span>
+        </li>
+      </ul>
+
+      <div class="payload" aria-labelledby="payload-heading">
+        <h3 id="payload-heading" class="payload__title">Outbound JSON</h3>
+        <pre class="payload__body" id="payload-preview">{
+  "status": "awaiting input"
+}</pre>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Success state, hidden until a valid submission fires -->
+  <section class="receipt" id="receipt" hidden aria-labelledby="receipt-heading">
+    <div class="receipt__stamp" aria-hidden="true">✓</div>
+    <h2 id="receipt-heading">Payload approved &amp; transmitted</h2>
+    <p>Every gate cleared inspection. Here is exactly what would leave the browser:</p>
+    <pre class="receipt__json" id="receipt-json"></pre>
+    <button type="button" class="submit-btn submit-btn--ghost" id="reset-btn">Run another payload</button>
+  </section>
+
+  <footer class="colophon">
+    <p>Frontend Development · Project 4 — Form Design &amp; Validation · Built for DecodeLabs</p>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
