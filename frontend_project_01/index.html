@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DecodeLabs | Engineering Foundations</title>
+    <!-- External CSS: Separation of Concerns -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Font for a polished, readable typeface -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <!-- PAGE CONTAINER: Grid layout for macro structure -->
+    <div class="page">
+        <!-- HEADER: Semantic landmark -->
+        <header class="header">
+            <div class="header__container">
+                <div class="header__brand">
+                    <span class="header__logo">Decode<span class="header__logo-highlight">Labs</span></span>
+                    <span class="header__tagline">Engineering Foundations</span>
+                </div>
+                <!-- NAV: Primary navigation vehicle -->
+                <nav class="nav" aria-label="Main navigation">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
+                        <li class="nav__item"><a href="#guidelines" class="nav__link">Guidelines</a></li>
+                        <li class="nav__item"><a href="#standards" class="nav__link">Standards</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- MAIN: Primary content area -->
+        <main class="main">
+            <!-- HERO SECTION -->
+            <section class="hero" aria-labelledby="hero-title">
+                <div class="hero__content">
+                    <h1 id="hero-title" class="hero__title">Frontend Development</h1>
+                    <p class="hero__subtitle">Project 1 · Industrial Training Kit</p>
+                    <p class="hero__batch">Batch: 2026 | Powered by DecodeLabs</p>
+                    <a href="#project" class="button button--primary">Explore Project</a>
+                </div>
+                <div class="hero__image-wrapper">
+                    <!-- AVIF/WebP image with explicit dimensions to prevent CLS -->
+                    <img 
+                        src="https://placehold.co/600x400/1a1a2e/e0e0e0?text=Visual+Architecture" 
+                        alt="Abstract representation of visual architecture and design systems"
+                        class="hero__image"
+                        width="600"
+                        height="400"
+                        loading="lazy"
+                    />
+                </div>
+            </section>
+
+            <!-- PROJECT OVERVIEW: The Gatekeeper Rule -->
+            <section id="project" class="section project" aria-labelledby="project-title">
+                <div class="section__header">
+                    <h2 id="project-title" class="section__title">Project 1: Static Webpage Design</h2>
+                    <p class="section__subtitle">Foundations of Visual Architecture &amp; Technical Integrity</p>
+                </div>
+                <div class="project__grid">
+                    <article class="card card--objective">
+                        <h3 class="card__title">The Objective</h3>
+                        <p class="card__text">Construct a pixel-perfect static foundation. The frontend is the only part of the system the user sees.</p>
+                        <div class="card__badge">Gatekeeper Rule</div>
+                    </article>
+                    <article class="card card--mindset">
+                        <h3 class="card__title">Engineering Mindset</h3>
+                        <p class="card__text"><strong>IPO Model:</strong> Input → Process → Output. Structure before code. Information architecture first.</p>
+                    </article>
+                    <article class="card card--a11y">
+                        <h3 class="card__title">A11Y Standards</h3>
+                        <p class="card__text">Non-negotiable. The web must be perceivable by all users and assistive technologies.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- GUIDELINES & QUALITY GATE -->
+            <section id="guidelines" class="section guidelines" aria-labelledby="guidelines-title">
+                <div class="section__header">
+                    <h2 id="guidelines-title" class="section__title">Guidelines &amp; Quality Gate</h2>
+                </div>
+                <div class="guidelines__flex">
+                    <!-- FLEXBOX used for micro-component alignment -->
+                    <div class="guideline-card">
+                        <span class="guideline-card__icon" aria-hidden="true">📐</span>
+                        <h3 class="guideline-card__title">Information Architecture</h3>
+                        <p class="guideline-card__text">Logical sitemap defined first. Semantic tags describe content explicitly.</p>
+                    </div>
+                    <div class="guideline-card">
+                        <span class="guideline-card__icon" aria-hidden="true">🧩</span>
+                        <h3 class="guideline-card__title">DRY &amp; BEM</h3>
+                        <p class="guideline-card__text">Modular styling. No inline styles. One copy is easier to maintain.</p>
+                    </div>
+                    <div class="guideline-card">
+                        <span class="guideline-card__icon" aria-hidden="true">⚡</span>
+                        <h3 class="guideline-card__title">Assets &amp; CLS</h3>
+                        <p class="guideline-card__text">AVIF/WebP formats. Explicit width/height to prevent layout shift.</p>
+                    </div>
+                    <div class="guideline-card">
+                        <span class="guideline-card__icon" aria-hidden="true">✅</span>
+                        <h3 class="guideline-card__title">Validation</h3>
+                        <p class="guideline-card__text">Pass W3C Validator and Lighthouse Audit. Code does not ship until it passes.</p>
+                    </div>
+                </div>
+                <!-- QUALITY GATE BANNER -->
+                <div class="quality-gate">
+                    <p class="quality-gate__text">🔒 The Architect’s Mandate: <em>“Build it well, for the frontend is the only part of the system the world will ever see.”</em></p>
+                </div>
+            </section>
+
+            <!-- REQUIREMENTS CHECKLIST (standards) -->
+            <section id="standards" class="section checklist" aria-labelledby="checklist-title">
+                <div class="section__header">
+                    <h2 id="checklist-title" class="section__title">Requirements Checklist</h2>
+                    <p class="section__subtitle">Fight Checklist — every item verified</p>
+                </div>
+                <ul class="checklist__list">
+                    <li class="checklist__item"><span class="checklist__mark" aria-hidden="true">✔</span> IA: Logical Sitemap defined first.</li>
+                    <li class="checklist__item"><span class="checklist__mark" aria-hidden="true">✔</span> HTML: Semantic tags (&lt;header&gt;, &lt;main&gt;, &lt;footer&gt;). One &lt;h1&gt;.</li>
+                    <li class="checklist__item"><span class="checklist__mark" aria-hidden="true">✔</span> CSS: External files only. DRY principle. No IDs for styling.</li>
+                    <li class="checklist__item"><span class="checklist__mark" aria-hidden="true">✔</span> LAYOUT: Grid for macro page, Flexbox for micro components.</li>
+                    <li class="checklist__item"><span class="checklist__mark" aria-hidden="true">✔</span> ASSETS: AVIF/WebP formats with explicit dimensions.</li>
+                    <li class="checklist__item"><span class="checklist__mark" aria-hidden="true">✔</span> VALIDATION: Pass W3C Validator and Lighthouse Audit.</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- FOOTER: Semantic landmark -->
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__brand">
+                    <p class="footer__copy">&copy; 2026 DecodeLabs. Engineering Foundations.</p>
+                </div>
+                <address class="footer__contact">
+                    <a href="tel:+918933006408" class="footer__link">+91 89330 06408</a>
+                    <a href="mailto:decodelabs.tech@gmail.com" class="footer__link">decodelabs.tech@gmail.com</a>
+                    <a href="#" class="footer__link">www.decodelabs.tech</a>
+                    <span class="footer__location">Greater Lucknow, India</span>
+                </address>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
