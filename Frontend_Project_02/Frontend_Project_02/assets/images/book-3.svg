@@ -1,0 +1,11 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="400" fill="#A8482E"/>
+  <rect x="0" y="0" width="10" height="400" fill="rgba(0,0,0,0.18)"/>
+  <path d="M0 340 L300 40" stroke="#F4EEDD" stroke-width="14" opacity="0.55"/><path d="M0 380 L260 40" stroke="#F4EEDD" stroke-width="4" opacity="0.35"/>
+  <foreignObject x="24" y="280" width="252" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Georgia, serif; color: #F4EEDD; font-size:22px; line-height:1.15; font-weight:700;">Cartographers of Rain</div>
+  </foreignObject>
+  <foreignObject x="24" y="352" width="252" height="30">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: monospace; color: #F4EEDD; opacity:0.75; font-size:12px; letter-spacing:0.04em; text-transform:uppercase;">Tomas Dvorak</div>
+  </foreignObject>
+</svg>

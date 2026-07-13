@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marginalia — Read Slowly, Everywhere</title>
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap header-inner">
+    <a href="index.html" class="logo">Marginalia<span class="dot">.</span></a>
+    <button class="nav-trigger" popovertarget="site-nav" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div id="site-nav" popover>
+      <div class="nav-panel-head">
+        <span class="logo">Menu</span>
+        <button class="nav-close" popovertarget="site-nav" popovertargetaction="hide" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="shelf.html">Shelf</a></li>
+        <li><a href="how-it-works.html">How it works</a></li>
+        <li><a href="readers.html">Readers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta"><a href="contact.html" class="btn btn-brass" style="width:100%">Start reading</a></div>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Independent reading club</p>
+        <h1>Read <em>slowly</em>,<br>on any screen you own.</h1>
+        <p class="lead">Marginalia is a small shelf of books worth finishing — with a reading layout that folds from your phone to your widest monitor without losing its shape.</p>
+        <div class="hero-actions">
+          <a href="shelf.html" class="btn btn-brass">Browse the shelf</a>
+          <a href="how-it-works.html" class="btn btn-outline">How it works</a>
+        </div>
+      </div>
+      <div class="hero-figure">
+        <img src="assets/images/hero-reader.svg" alt="Illustration of an open book glowing under a reading lamp">
+        <span class="hero-tag">currently reading &mdash; ch. 4</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="wrap">
+      <div class="stat"><div class="num">1,240</div><div class="label">titles on the shelf</div></div>
+      <div class="stat"><div class="num">38</div><div class="label">reading circles</div></div>
+      <div class="stat"><div class="num">4.8</div><div class="label">average rating</div></div>
+      <div class="stat"><div class="num">100%</div><div class="label">fluid layout</div></div>
+    </div>
+  </section>
+
+  <section class="section" id="shelf">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">This week</p>
+          <h2>From the shelf</h2>
+        </div>
+        <a href="shelf.html" class="btn btn-outline">View all books</a>
+      </div>
+
+      <div class="shelf">
+        <article class="book-card">
+          <div class="book-cover"><img src="assets/images/book-1.svg" alt="Cover of The Quiet Coast"></div>
+          <div class="book-body"><span class="kind">Fiction</span><h3>The Quiet Coast</h3><p class="author">Elena Marchetti</p><span class="price">$14.00</span></div>
+        </article>
+        <article class="book-card">
+          <div class="book-cover"><img src="assets/images/book-2.svg" alt="Cover of Notes in the Margin"></div>
+          <div class="book-body"><span class="kind">Essays</span><h3>Notes in the Margin</h3><p class="author">Iris Okafor</p><span class="price">$11.50</span></div>
+        </article>
+        <article class="book-card">
+          <div class="book-cover"><img src="assets/images/book-3.svg" alt="Cover of Cartographers of Rain"></div>
+          <div class="book-body"><span class="kind">History</span><h3>Cartographers of Rain</h3><p class="author">Tomas Dvořák</p><span class="price">$16.00</span></div>
+        </article>
+        <article class="book-card">
+          <div class="book-cover"><img src="assets/images/book-4.svg" alt="Cover of Small Weathers"></div>
+          <div class="book-body"><span class="kind">Poetry</span><h3>Small Weathers</h3><p class="author">Nadia Ferris</p><span class="price">$9.00</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section how">
+    <div class="wrap">
+      <p class="eyebrow">The process</p>
+      <h2>Three habits, one shelf</h2>
+      <div class="steps" style="margin-top: var(--space-m)">
+        <div class="step">
+          <img src="assets/images/icon-choose.svg" alt="">
+          <div class="mark">01 — choose</div>
+          <h3>Pick a title</h3>
+          <p>Browse by mood, not just genre. Every book comes with a short, honest note on who it's for.</p>
+        </div>
+        <div class="step">
+          <img src="assets/images/icon-read.svg" alt="">
+          <div class="mark">02 — read</div>
+          <h3>Read in short sittings</h3>
+          <p>Built for the ten minutes you have, not the weekend you don't. No streaks, no pressure.</p>
+        </div>
+        <div class="step">
+          <img src="assets/images/icon-discuss.svg" alt="">
+          <div class="mark">03 — discuss</div>
+          <h3>Talk it over</h3>
+          <p>Join a small reading circle when you finish, or skip straight to the next book.</p>
+        </div>
+      </div>
+      <p style="margin-top: var(--space-m)"><a href="how-it-works.html" class="btn btn-outline">See the full process</a></p>
+    </div>
+  </section>
+
+  <section class="section quote">
+    <div class="wrap">
+      <blockquote>
+        &ldquo;It's the first reading app that doesn't fight me for attention. On my phone during a commute, on my laptop at night &mdash; it just fits.&rdquo;
+        <cite>— a Marginalia reader, three years in — <a href="readers.html" style="color:inherit; text-decoration: underline;">read more stories</a></cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section subscribe">
+    <div class="wrap">
+      <h2>Get one good book<br>in your inbox, monthly.</h2>
+      <p>Join for free — or head to the <a href="contact.html" style="text-decoration:underline;">contact page</a> to ask us anything first.</p>
+      <form class="sub-form" action="contact.html">
+        <label for="email" style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <button type="submit" class="btn btn-brass">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap footer-grid">
+    <div>
+      <a href="index.html" class="logo" style="color: var(--parchment)">Marginalia<span class="dot">.</span></a>
+      <p style="max-width: 34ch; margin-top: 0.8em;">A small, unhurried shelf for readers who want their books to fit the screen in front of them — not the other way around.</p>
+    </div>
+    <div><h4>Shelf</h4><ul><li><a href="shelf.html">All books</a></li><li><a href="shelf.html">Fiction</a></li><li><a href="shelf.html">Essays</a></li></ul></div>
+    <div><h4>Club</h4><ul><li><a href="how-it-works.html">How it works</a></li><li><a href="readers.html">Readers</a></li></ul></div>
+    <div><h4>Contact</h4><ul><li><a href="mailto:hello@marginalia.reads">hello@marginalia.reads</a></li><li><a href="contact.html">Contact page</a></li></ul></div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; 2026 Marginalia</span>
+    <span>Built mobile-first, from 320px up.</span>
+  </div>
+</footer>
+
+<div class="bp-ribbon" aria-hidden="true"><span class="dot"></span><span id="bpLabel">mobile · &lt;768px</span></div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

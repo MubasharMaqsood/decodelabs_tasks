@@ -1,0 +1,11 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="400" fill="#1f3330"/>
+  <rect x="0" y="0" width="10" height="400" fill="rgba(0,0,0,0.18)"/>
+  <circle cx="40" cy="60" r="5" fill="#B98B3E" opacity="0.6"/><circle cx="77" cy="113" r="7" fill="#B98B3E" opacity="0.6"/><circle cx="114" cy="166" r="9" fill="#B98B3E" opacity="0.6"/><circle cx="151" cy="219" r="5" fill="#B98B3E" opacity="0.6"/><circle cx="188" cy="272" r="7" fill="#B98B3E" opacity="0.6"/><circle cx="225" cy="105" r="9" fill="#B98B3E" opacity="0.6"/><circle cx="262" cy="158" r="5" fill="#B98B3E" opacity="0.6"/><circle cx="59" cy="211" r="7" fill="#B98B3E" opacity="0.6"/><circle cx="96" cy="264" r="9" fill="#B98B3E" opacity="0.6"/><circle cx="133" cy="97" r="5" fill="#B98B3E" opacity="0.6"/><circle cx="170" cy="150" r="7" fill="#B98B3E" opacity="0.6"/><circle cx="207" cy="203" r="9" fill="#B98B3E" opacity="0.6"/><circle cx="244" cy="256" r="5" fill="#B98B3E" opacity="0.6"/><circle cx="41" cy="89" r="7" fill="#B98B3E" opacity="0.6"/>
+  <foreignObject x="24" y="280" width="252" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Georgia, serif; color: #F4EEDD; font-size:22px; line-height:1.15; font-weight:700;">Letters Never Sent</div>
+  </foreignObject>
+  <foreignObject x="24" y="352" width="252" height="30">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: monospace; color: #F4EEDD; opacity:0.75; font-size:12px; letter-spacing:0.04em; text-transform:uppercase;">Marcus Boyle</div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="400" fill="#3a2635"/>
+  <rect x="0" y="0" width="10" height="400" fill="rgba(0,0,0,0.18)"/>
+  <g stroke="#D6A752" stroke-width="10" opacity="0.5"><line x1="0" y1="60" x2="300" y2="60"/><line x1="0" y1="100" x2="300" y2="100"/><line x1="0" y1="140" x2="300" y2="140"/></g>
+  <foreignObject x="24" y="280" width="252" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Georgia, serif; color: #F4EEDD; font-size:22px; line-height:1.15; font-weight:700;">The Quiet Coast</div>
+  </foreignObject>
+  <foreignObject x="24" y="352" width="252" height="30">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: monospace; color: #F4EEDD; opacity:0.75; font-size:12px; letter-spacing:0.04em; text-transform:uppercase;">Elena Marchetti</div>
+  </foreignObject>
+</svg>

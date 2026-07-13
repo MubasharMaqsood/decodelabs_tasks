@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How it Works — Marginalia</title>
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap header-inner">
+    <a href="index.html" class="logo">Marginalia<span class="dot">.</span></a>
+    <button class="nav-trigger" popovertarget="site-nav" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div id="site-nav" popover>
+      <div class="nav-panel-head">
+        <span class="logo">Menu</span>
+        <button class="nav-close" popovertarget="site-nav" popovertargetaction="hide" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shelf.html">Shelf</a></li>
+        <li><a href="how-it-works.html" aria-current="page">How it works</a></li>
+        <li><a href="readers.html">Readers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta"><a href="contact.html" class="btn btn-brass" style="width:100%">Start reading</a></div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-banner">
+    <div class="wrap">
+      <p class="breadcrumb"><a href="index.html">Home</a> / How it works</p>
+      <h1>Three habits, one shelf</h1>
+      <p class="lead">Marginalia isn't a subscription you forget about. It's a small loop: choose, read, discuss — sized to fit around your day, not the other way around.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="steps">
+        <div class="step">
+          <img src="assets/images/icon-choose.svg" alt="">
+          <div class="mark">01 — choose</div>
+          <h3>Pick a title</h3>
+          <p>Browse the shelf by mood, not just genre. Every book comes with a short, honest note on who it's for and how long it takes to finish.</p>
+        </div>
+        <div class="step">
+          <img src="assets/images/icon-read.svg" alt="">
+          <div class="mark">02 — read</div>
+          <h3>Read in short sittings</h3>
+          <p>The reader is built for the ten minutes you actually have — on a train, in a queue, before sleep — not the free weekend you don't.</p>
+        </div>
+        <div class="step">
+          <img src="assets/images/icon-discuss.svg" alt="">
+          <div class="mark">03 — discuss</div>
+          <h3>Talk it over, or don't</h3>
+          <p>Join a small reading circle when you finish a book, or skip straight to the next one. Both are completely normal here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section how">
+    <div class="wrap">
+      <p class="eyebrow">Common questions</p>
+      <h2>Before you start</h2>
+      <div class="accordion" style="margin-top: var(--space-m)">
+        <details open>
+          <summary>How much does it cost?</summary>
+          <p class="answer">Books are priced individually, usually between $9 and $16. There's no subscription fee — the monthly newsletter recommendation is free.</p>
+        </details>
+        <details>
+          <summary>Can I read offline?</summary>
+          <p class="answer">Yes. Once a book is added to your shelf it's available offline on every device you're signed into.</p>
+        </details>
+        <details>
+          <summary>What if I don't finish a book?</summary>
+          <p class="answer">Nothing happens. There are no streaks, reminders, or guilt emails. Pick it back up whenever, or don't.</p>
+        </details>
+        <details>
+          <summary>How do reading circles work?</summary>
+          <p class="answer">Circles are small groups of 6–10 readers who finished the same book in the same month. Joining is optional and always free.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section subscribe">
+    <div class="wrap">
+      <h2>Ready to pick<br>your first book?</h2>
+      <p><a href="shelf.html" class="btn btn-brass" style="margin-top:0.6em;">Browse the shelf</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap footer-grid">
+    <div>
+      <a href="index.html" class="logo" style="color: var(--parchment)">Marginalia<span class="dot">.</span></a>
+      <p style="max-width: 34ch; margin-top: 0.8em;">A small, unhurried shelf for readers who want their books to fit the screen in front of them — not the other way around.</p>
+    </div>
+    <div><h4>Shelf</h4><ul><li><a href="shelf.html">All books</a></li><li><a href="shelf.html">Fiction</a></li><li><a href="shelf.html">Essays</a></li></ul></div>
+    <div><h4>Club</h4><ul><li><a href="how-it-works.html">How it works</a></li><li><a href="readers.html">Readers</a></li></ul></div>
+    <div><h4>Contact</h4><ul><li><a href="mailto:hello@marginalia.reads">hello@marginalia.reads</a></li><li><a href="contact.html">Contact page</a></li></ul></div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; 2026 Marginalia</span>
+    <span>Built mobile-first, from 320px up.</span>
+  </div>
+</footer>
+
+<div class="bp-ribbon" aria-hidden="true"><span class="dot"></span><span id="bpLabel">mobile · &lt;768px</span></div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

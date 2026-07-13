@@ -1,0 +1,11 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="400" fill="#4a3320"/>
+  <rect x="0" y="0" width="10" height="400" fill="rgba(0,0,0,0.18)"/>
+  <path d="M150 60 Q220 130 150 260 Q80 130 150 60 Z" fill="#F4EEDD" opacity="0.5"/><line x1="150" y1="70" x2="150" y2="250" stroke="#F4EEDD" stroke-width="3"/>
+  <foreignObject x="24" y="280" width="252" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Georgia, serif; color: #F4EEDD; font-size:22px; line-height:1.15; font-weight:700;">The Long Orchard</div>
+  </foreignObject>
+  <foreignObject x="24" y="352" width="252" height="30">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: monospace; color: #F4EEDD; opacity:0.75; font-size:12px; letter-spacing:0.04em; text-transform:uppercase;">Priya Vasan</div>
+  </foreignObject>
+</svg>
